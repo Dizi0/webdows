@@ -1,0 +1,273 @@
+﻿html
+{
+  cursor:url('image/cursclassic.png'),default;
+  
+}
+body {
+  background-color: #008080;
+  font-family: monospace;
+  color: white;
+
+}
+/* Fenetre */
+.window {
+  color: black;
+  margin-top: 5%;
+  border-style: outset;
+  height: fit-content;
+  width: fit-content;
+  width: -moz-fit-content;
+  margin-left: 25%;
+}
+
+.bluebar {
+  width: 100%;
+  background: blue;
+  height: 21px;
+}
+
+.win95 {
+  background: lightgray;
+  padding: 1px;
+  padding-bottom: 150px;
+  width: -moz-fit-content;
+}
+.win951 {
+  background: lightgray;
+  padding: 1px;
+  width: -moz-fit-content;
+}
+
+.title {
+  margin: 1px;
+  color: white;
+  padding-left: 10px;
+}
+
+.close {
+  color: white;
+  float: right;
+  margin-top: -16px;
+  background: #ec0000;
+  border-radius: 2px;
+  border: outset darkgrey;
+  border-width: 3px;
+  padding: 0px 5px 0px 5px;
+  margin-right: 7px;
+  position: relative;
+}
+
+.close:hover {
+  cursor:url('image/cursaim.png'),auto;
+  border: inset #ce461b;
+}
+
+/* Version 95 */
+form {
+  float: right;
+  margin: 5px;
+}
+
+label {
+  color: black;
+  padding-top: 8px;
+  float: left;
+  padding-left: 3px;
+}
+
+.input95 {
+  border-radius: 5px;
+  padding: 5px;
+  border-style: inset;
+  float: right;
+}
+
+.midbtn {
+  cursor: url('image/cursaim.png'),pointer;
+  margin: 26px 0px 0px 110px;
+  border: outset;
+}
+
+.midbtn:hover {
+  border: inset;
+}
+
+/* Barre de tache */
+.downbar {
+    background-color: #c0c0c0;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+}
+
+.start {
+  color: black;
+  text-align: right;
+  font-weight: bolder;
+  font-size: 12px;
+  float: left;
+  padding: 8px 5px;
+  margin-left: 1px;
+  border: outset 3px lightgray;
+}
+
+.start:hover {
+  border: inset 3px lightgray;
+}
+
+.winlogo {
+  width: 30px;
+  float: left;
+  margin-top: -3px;
+}
+
+.startMenu {
+  top: -248px;
+  left: 1px;
+  height: 240px;
+  width: 165px;
+  background-color: silver;
+  position: absolute;
+  display: block;
+  border: outset 3px white;
+}
+
+.startMenu .left {
+  width: 28px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  bottom: 0px;
+  background-color: gray;
+  font-family: Arial;
+  font-weight: 900;
+  text-transform: capitalize;
+}
+
+.startMenu .menuItem {
+  color: black;
+  height: 27px;
+  margin-left: 24px;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.startMenu .deroul:hover {
+  background-color: navy;
+  color: white;
+}
+
+.startMenu .deroul:after {
+  content: "▶";
+  float: right;
+  margin-right: 5px;
+}
+
+.startMenu .menuItem:first-letter {
+  text-decoration: underline;
+}
+
+.startMenu .shutdown:first-letter {
+  text-decoration: none;
+}
+
+.startMenu .left .webdo {
+  color: silver;
+  transform: rotateZ(-90deg);
+  transform-origin: center left;
+  display: inline-block;
+  width: 200px;
+  white-space: nowrap;
+  font-size: 20px;
+  margin-top: 215px;
+  margin-left: 10px;
+}
+
+.startMenu .left .num95 {
+  font-weight: 100 !important;
+  color: white;
+}
+
+.startstd {
+  border: inset 3px lightgray;
+}
+
+.startact {
+  /* A tester*/
+}
+ /*Icones et spacers */
+.icon {
+    cursor: url('image/cursaim.png'), pointer;
+    margin: 3px 40px;
+    height: 50px;
+    vertical-align: bottom;
+}
+span
+{
+    margin-left: inherit;
+    margin-right: 20px;
+}
+
+.sepa {
+  height: 1px;
+  border-top: ridge 1px white;
+  border-bottom: ridge 1px grey;
+  margin: 2px;
+}
+
+.resulat {
+  background: lightgrey;
+  padding: 20px;
+}
+/* Pages popups*/
+
+.complex {
+  display:block;
+  width: fit-content;
+  width: -moz-fit-content;
+}
+
+.fractal {
+  display:block;
+  width: fit-content;
+  width: -moz-fit-content;
+}
+.fdi {
+  display:block;
+  width: fit-content;
+  width: -moz-fit-content;
+}
+.resultat
+{
+  background: lightgrey;
+  padding: 20px;
+}
+.insider
+{    
+  width: -moz-min-content;
+  width: min-content;
+  border: inset;
+}
+
+/*Drag and drop  */
+
+/* draggable targets */
+[data-draggable="target"] {
+  float: left;
+  list-style-type: none;
+
+  width: 100px;
+  height: 100px;
+}
+
+/* draggable items */
+data-draggable="item" {
+  display: block;
+  list-style-type: none;
+  margin: 0 0 2px 0;
+  padding: 0.2em 0.4em;
+  border-radius: 0.2em;
+  line-height: 1.3;
+}
